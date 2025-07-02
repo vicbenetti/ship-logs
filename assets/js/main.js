@@ -46,6 +46,37 @@ const maxScale = 0.8;
 
 updateTransform();
 
+svg.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 1) {
+        isPanning = true;
+        startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+    }
+}, { passive: true });
+
+svg.addEventListener('touchmove', (e) => {
+    if (!isPanning || e.touches.length !== 1) return;
+
+    const dx = e.touches[0].clientX - startX;
+    const dy = e.touches[0].clientY - startY;
+
+    currentTranslate.x += dx;
+    currentTranslate.y += dy;
+
+    updateTransform();
+
+    startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+
+    svg.classList.add('dragging');
+}, { passive: true });
+
+svg.addEventListener('touchend', () => {
+    isPanning = false;
+    svg.classList.remove('dragging');
+});
+
+
 svg.addEventListener('mousedown', (e) => {
     svg.classList.add('dragging');
     isPanning = true;
