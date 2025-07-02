@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diário de Bordo (Outer Wilds)</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="shortcut icon" href="assets/img/logo/icon.png">
 </head>
 
 <body>
+  <div id="modal" class="overlay" style="display:none;">
+    <div class="modal">
+      <p>Grande parte da magia de <a target="_blank" href="https://www.mobiusdigitalgames.com/outer-wilds.html">Outer
+          Wilds</a> está em explorar aquele universo e compreender seus mistérios por conta própria.</p>
+      <p>O diário de bordo completo revelará segredos importantes que podem afetar sua experiência. Deseja continuar
+        mesmo assim?</p>
+      <button id="continueBtn">CONTINUAR</button>
+    </div>
+  </div>
   <svg id="svg">
     <g id="viewport">
       <g id="fios"></g>
       <!-- Pistas em laranja -->
       <g id="card-orange">
         <!-- Três linhas card grande -->
-        <g class="pista" data-id="pistaProjetoGemeoCinzento" transform="translate(-100, -200)" id="pistaProjetoGemeoCinzento">
+        <g class="pista" data-id="pistaProjetoGemeoCinzento" transform="translate(-100, -200)"
+          id="pistaProjetoGemeoCinzento">
           <rect width="500" height="800" />
           <text x="250" y="90">
             <tspan x="250" dy="0" class="texto3Linhas">Projeto do</tspan>
@@ -66,7 +77,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaLaboratorioAltaEnergia" transform="translate(-280, -935)" id="pistaLaboratorioAltaEnergia">
+        <g class="pista" data-id="pistaLaboratorioAltaEnergia" transform="translate(-280, -935)"
+          id="pistaLaboratorioAltaEnergia">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Laboratório</tspan>
@@ -89,7 +101,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaUsinaBuracosNegros" transform="translate(-610, 715)" id="pistaUsinaBuracosNegros">
+        <g class="pista" data-id="pistaUsinaBuracosNegros" transform="translate(-610, 715)"
+          id="pistaUsinaBuracosNegros">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Usina de</tspan>
@@ -111,7 +124,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaEstacaoBuracoBranco" transform="translate(-1380, -935)" id="pistaEstacaoBuracoBranco">
+        <g class="pista" data-id="pistaEstacaoBuracoBranco" transform="translate(-1380, -935)"
+          id="pistaEstacaoBuracoBranco">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Estação do</tspan>
@@ -122,7 +136,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaTorresGemeoCinzento" transform="translate(-1020, -200)" id="pistaTorresGemeoCinzento">
+        <g class="pista" data-id="pistaTorresGemeoCinzento" transform="translate(-1020, -200)"
+          id="pistaTorresGemeoCinzento">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Torres do</tspan>
@@ -168,7 +183,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno -->
-        <g class="pista" data-id="pistaCavernaGravidadeZero" transform="translate(2210, -1250)" id="pistaCavernaGravidadeZero">
+        <g class="pista" data-id="pistaCavernaGravidadeZero" transform="translate(2210, -1250)"
+          id="pistaCavernaGravidadeZero">
           <rect width="175" height="275" />
           <text x="87.5" y="33.5">
             <tspan x="87.5" dy="0" class="textoPeqMed">Caverna de</tspan>
@@ -189,7 +205,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card médio -->
-        <g class="pista" data-id="pistaAcampamentoRiebeck" transform="translate(3755, -1895)" id="pistaAcampamentoRiebeck">
+        <g class="pista" data-id="pistaAcampamentoRiebeck" transform="translate(3755, -1895)"
+          id="pistaAcampamentoRiebeck">
           <rect width="250" height="350" />
           <text x="87.5" y="44">
             <tspan x="125.5" dy="0" class="textoMedGran">Acampamento</tspan>
@@ -209,7 +226,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaSementeAbrolhoSombrio" transform="translate(4810, -2070)" id="pistaSementeAbrolhoSombrio">
+        <g class="pista" data-id="pistaSementeAbrolhoSombrio" transform="translate(4810, -2070)"
+          id="pistaSementeAbrolhoSombrio">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Semente do</tspan>
@@ -270,7 +288,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaExploradoraNomaiCongelada" transform="translate(2265, 2520)" id="pistaExploradoraNomaiCongelada">
+        <g class="pista" data-id="pistaExploradoraNomaiCongelada" transform="translate(2265, 2520)"
+          id="pistaExploradoraNomaiCongelada">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Exploradora</tspan>
@@ -281,7 +300,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaCanhaoGravitacional2" transform="translate(2910, 2190)" id="pistaCanhaoGravitacional2">
+        <g class="pista" data-id="pistaCanhaoGravitacional2" transform="translate(2910, 2190)"
+          id="pistaCanhaoGravitacional2">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Canhão</tspan>
@@ -296,7 +316,8 @@
       <!-- Pistas em verde -->
       <g id="card-green">
         <!-- Três linhas card grande -->
-        <g class="pista" data-id="pistaCanhaoSondaOrbital" transform="translate(2980, -990)" id="pistaCanhaoSondaOrbital">
+        <g class="pista" data-id="pistaCanhaoSondaOrbital" transform="translate(2980, -990)"
+          id="pistaCanhaoSondaOrbital">
           <rect width="500" height="800" />
           <text x="250" y="90">
             <tspan x="250" dy="0" class="texto3Linhas">Canhão de</tspan>
@@ -327,7 +348,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno -->
-        <g class="pista" data-id="pistaModuloRastreamentoSonda" transform="translate(3395, -360)" id="pistaModuloRastreamentoSonda">
+        <g class="pista" data-id="pistaModuloRastreamentoSonda" transform="translate(3395, -360)"
+          id="pistaModuloRastreamentoSonda">
           <rect width="175" height="275" />
           <text x="87.5" y="33.5">
             <tspan x="87.5" dy="0" class="textoPeqMed">Módulo de</tspan>
@@ -369,7 +391,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card pequeno -->
-        <g class="pista" data-id="pistaSimulacaoTornados" transform="translate(4375, -1050)" id="pistaSimulacaoTornados">
+        <g class="pista" data-id="pistaSimulacaoTornados" transform="translate(4375, -1050)"
+          id="pistaSimulacaoTornados">
           <rect width="175" height="245" />
           <text x="87.5" y="31.5">
             <tspan x="87.5" dy="0" class="textoPeqMed">Simulação de</tspan>
@@ -379,7 +402,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card médio -->
-        <g class="pista" data-id="pistaEstaleiroConstrucao" transform="translate(4085, -490)" id="pistaEstaleiroConstrucao">
+        <g class="pista" data-id="pistaEstaleiroConstrucao" transform="translate(4085, -490)"
+          id="pistaEstaleiroConstrucao">
           <rect width="250" height="350" />
           <text x="87.5" y="44">
             <tspan x="125.5" dy="0" class="textoMedGran">Estaleiro de</tspan>
@@ -399,7 +423,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card médio -->
-        <g class="pista" data-id="pistaAcampamentoFeldspato" transform="translate(4835, -780)" id="pistaAcampamentoFeldspato">
+        <g class="pista" data-id="pistaAcampamentoFeldspato" transform="translate(4835, -780)"
+          id="pistaAcampamentoFeldspato">
           <rect width="250" height="350" />
           <text x="87.5" y="44">
             <tspan x="125.5" dy="0" class="textoMedGran">Acampamento</tspan>
@@ -425,7 +450,8 @@
       <!-- Pistas em vermelho -->
       <g id="card-red">
         <!-- Duas linhas card médio -->
-        <g class="pista" data-id="pistaAntigoAssentamento" transform="translate(-1910, 1790)" id="pistaAntigoAssentamento">
+        <g class="pista" data-id="pistaAntigoAssentamento" transform="translate(-1910, 1790)"
+          id="pistaAntigoAssentamento">
           <rect width="250" height="350" />
           <text x="87.5" y="44">
             <tspan x="125.5" dy="0" class="textoMedGran">Antigo</tspan>
@@ -536,7 +562,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card intermediário -->
-        <g class="pista" data-id="pistaExploradoraSolanum" transform="translate(-1940, -2530)" id="pistaExploradoraSolanum">
+        <g class="pista" data-id="pistaExploradoraSolanum" transform="translate(-1940, -2530)"
+          id="pistaExploradoraSolanum">
           <rect width="200" height="280" />
           <text x="21.5" y="35.5">
             <tspan x="99.5" dy="0" class="textoMedio">Exploradora</tspan>
@@ -576,7 +603,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaTorreConhecimentoQuantico" transform="translate(-3105, -2570)" id="pistaTorreConhecimentoQuantico">
+        <g class="pista" data-id="pistaTorreConhecimentoQuantico" transform="translate(-3105, -2570)"
+          id="pistaTorreConhecimentoQuantico">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Torre do</tspan>
@@ -587,7 +615,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaCanhaoGravitacional" transform="translate(-2845, -3290)" id="pistaCanhaoGravitacional">
+        <g class="pista" data-id="pistaCanhaoGravitacional" transform="translate(-2845, -3290)"
+          id="pistaCanhaoGravitacional">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Canhão</tspan>
@@ -598,7 +627,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card pequeno -->
-        <g class="pista" data-id="pistaFragmentoQuantico" transform="translate(-3230, -2290)" id="pistaFragmentoQuantico">
+        <g class="pista" data-id="pistaFragmentoQuantico" transform="translate(-3230, -2290)"
+          id="pistaFragmentoQuantico">
           <rect width="175" height="245" />
           <text x="87.5" y="31.5">
             <tspan x="87.5" dy="0" class="textoPeqMed">Fragmento</tspan>
@@ -608,7 +638,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaTorreJulgamentosQuanticos" transform="translate(-3735, -2735)" id="pistaTorreJulgamentosQuanticos">
+        <g class="pista" data-id="pistaTorreJulgamentosQuanticos" transform="translate(-3735, -2735)"
+          id="pistaTorreJulgamentosQuanticos">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Torre dos</tspan>
@@ -629,7 +660,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card médio -->
-        <g class="pista" data-id="pistaCavernasQuanticas" transform="translate(-2995, -1805)" id="pistaCavernasQuanticas">
+        <g class="pista" data-id="pistaCavernasQuanticas" transform="translate(-2995, -1805)"
+          id="pistaCavernasQuanticas">
           <rect width="250" height="350" />
           <text x="87.5" y="44">
             <tspan x="125.5" dy="0" class="textoMedGran">Cavernas</tspan>
@@ -639,7 +671,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card médio -->
-        <g class="pista" data-id="pistaCavernaFundoSecoLago" transform="translate(-3245, -1150)" id="pistaCavernaFundoSecoLago">
+        <g class="pista" data-id="pistaCavernaFundoSecoLago" transform="translate(-3245, -1150)"
+          id="pistaCavernaFundoSecoLago">
           <rect width="250" height="380" />
           <text x="125" y="40">
             <tspan x="125" dy="0" class="texto3LinhasMedio">Caverna do</tspan>
@@ -683,7 +716,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaRoloFilmeQueimado1" transform="translate(5348, 2025)" id="pistaRoloFilmeQueimado1">
+        <g class="pista" data-id="pistaRoloFilmeQueimado1" transform="translate(5348, 2025)"
+          id="pistaRoloFilmeQueimado1">
           <rect width="155" height="235" />
           <text x="77.5" y="25.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
@@ -723,7 +757,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card médio -->
-        <g class="pista" data-id="pistaDesfiladeiroOculto" transform="translate(4260, 2680)" id="pistaDesfiladeiroOculto">
+        <g class="pista" data-id="pistaDesfiladeiroOculto" transform="translate(4260, 2680)"
+          id="pistaDesfiladeiroOculto">
           <rect width="250" height="350" />
           <text x="87.5" y="44">
             <tspan x="125.5" dy="0" class="textoMedGran">Desfiladeiro</tspan>
@@ -733,7 +768,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Duas linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaLaboratórioAvariado" transform="translate(4180, 2480)" id="pistaLaboratórioAvariado">
+        <g class="pista" data-id="pistaLaboratórioAvariado" transform="translate(4180, 2480)"
+          id="pistaLaboratórioAvariado">
           <rect width="155" height="215" />
           <text x="77.5" y="26.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Laboratório</tspan>
@@ -743,7 +779,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaRoloFilmeQueimado2" transform="translate(4180, 3005)" id="pistaRoloFilmeQueimado2">
+        <g class="pista" data-id="pistaRoloFilmeQueimado2" transform="translate(4180, 3005)"
+          id="pistaRoloFilmeQueimado2">
           <rect width="155" height="235" />
           <text x="77.5" y="25.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
@@ -754,7 +791,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaSalaIncineracaoFilmes1" transform="translate(4377, 3005)" id="pistaSalaIncineracaoFilmes1">
+        <g class="pista" data-id="pistaSalaIncineracaoFilmes1" transform="translate(4377, 3005)"
+          id="pistaSalaIncineracaoFilmes1">
           <rect width="155" height="235" />
           <text x="77.5" y="25.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Sala de</tspan>
@@ -775,7 +813,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaSalaIncineracaoFilmes2" transform="translate(6016, 2995)" id="pistaSalaIncineracaoFilmes2">
+        <g class="pista" data-id="pistaSalaIncineracaoFilmes2" transform="translate(6016, 2995)"
+          id="pistaSalaIncineracaoFilmes2">
           <rect width="155" height="235" />
           <text x="77.5" y="25.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Sala de</tspan>
@@ -786,7 +825,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaRoloFilmeQueimado3" transform="translate(6223, 2995)" id="pistaRoloFilmeQueimado3">
+        <g class="pista" data-id="pistaRoloFilmeQueimado3" transform="translate(6223, 2995)"
+          id="pistaRoloFilmeQueimado3">
           <rect width="155" height="235" />
           <text x="77.5" y="25.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
@@ -867,7 +907,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaSalaIncineracaoFilmes3" transform="translate(5096, 3850)" id="pistaSalaIncineracaoFilmes3">
+        <g class="pista" data-id="pistaSalaIncineracaoFilmes3" transform="translate(5096, 3850)"
+          id="pistaSalaIncineracaoFilmes3">
           <rect width="155" height="235" />
           <text x="77.5" y="25.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Sala de</tspan>
@@ -878,7 +919,8 @@
             preserveAspectRatio="xMidYMid meet" />
         </g>
         <!-- Três linhas card pequeno (DLC)-->
-        <g class="pista" data-id="pistaRoloFilmeQueimado4" transform="translate(5300, 3850)" id="pistaRoloFilmeQueimado4">
+        <g class="pista" data-id="pistaRoloFilmeQueimado4" transform="translate(5300, 3850)"
+          id="pistaRoloFilmeQueimado4">
           <rect width="155" height="235" />
           <text x="77.5" y="25.5">
             <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
