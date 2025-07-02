@@ -8,6 +8,39 @@ let currentTranslate = { x: 920, y: 420 };
 let scale = 0.2;
 let mouseMoved = false;
 
+const oneWeek = 7 * 24 * 60 * 60 * 1000;
+
+function shouldShowModal() {
+    const lastClosed = localStorage.getItem('modalClosedAt');
+    if (!lastClosed) return true;
+    const lastClosedTime = parseInt(lastClosed, 10);
+    const now = Date.now();
+    return (now - lastClosedTime) > oneWeek;
+}
+
+function showModal() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'flex';
+    document.body.classList.add('modal-open');
+}
+
+function hideModal() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+    document.body.classList.remove('modal-open');
+}
+
+document.getElementById('continueBtn').addEventListener('click', () => {
+    localStorage.setItem('modalClosedAt', Date.now().toString());
+    hideModal();
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+    if (shouldShowModal()) {
+        showModal();
+    }
+});
+
 const minScale = 0.1; // 0.08 e 0.02
 const maxScale = 0.8;
 
@@ -18,7 +51,7 @@ svg.addEventListener('mousedown', (e) => {
     isPanning = true;
     startX = e.clientX;
     startY = e.clientY;
-    mouseMoved = false; // reseta o estado
+    mouseMoved = false;
 });
 
 svg.addEventListener('mousemove', (e) => {
