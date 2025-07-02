@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Diário de Bordo (Outer Wilds)</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/img/logo/icon.png">
+</head>
+
+<body>
+  <svg id="svg">
+    <g id="viewport">
+      <g id="fios"></g>
+      <!-- Pistas em laranja -->
+      <g id="card-orange">
+        <!-- Três linhas card grande -->
+        <g class="pista" data-id="pistaProjetoGemeoCinzento" transform="translate(-100, -200)" id="pistaProjetoGemeoCinzento">
+          <rect width="500" height="800" />
+          <text x="250" y="90">
+            <tspan x="250" dy="0" class="texto3Linhas">Projeto do</tspan>
+            <tspan x="250" dy="1.3em" class="texto3Linhas">Gêmeo</tspan>
+            <tspan x="250" dy="1.3em" class="texto3Linhas">Cinzento</tspan>
+          </text>
+          <image href="assets/img/AshTwinProject.jpg" x="10" y="310" width="480" height="480"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Uma linha card médio -->
+        <g class="pista" data-id="pistaMinasNomai" transform="translate(700, 750)" id="pistaMinasNomai">
+          <rect width="250" height="350" />
+          <text x="125" y="60">
+            <tspan x="125" dy="0" class="textoMedGran">Minas Nomai</tspan>
+          </text>
+          <image href="assets/img/NomaiMines.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaLocalExperimentos" transform="translate(1240, 735)" id="pistaLocalExperimentos">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Local de</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Experimentos</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Vulcânicos</tspan>
+          </text>
+          <image href="assets/img/VolcanicTestingSite.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaIlhaEstatua" transform="translate(850, -680)" id="pistaIlhaEstatua">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Ilha da</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Estátua</tspan>
+          </text>
+          <image href="assets/img/StatueIsland.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaOficinaEstatuas" transform="translate(730, -420)" id="pistaOficinaEstatuas">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Oficina de</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Estátuas</tspan>
+          </text>
+          <image href="assets/img/StatueWorkshop.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaLaboratorioAltaEnergia" transform="translate(-280, -935)" id="pistaLaboratorioAltaEnergia">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Laboratório</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">de Alta</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Energia</tspan>
+          </text>
+          <image href="assets/img/HighEnergyLab.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Quatro linhas card pequeno -->
+        <g class="pista" data-id="pistaEsquemasTorre" transform="translate(-390, -675)" id="pistaEsquemasTorre">
+          <rect width="175" height="295" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Esquemas da</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Torre do</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Gêmeo</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Cinzento</tspan>
+          </text>
+          <image href="assets/img/AshTwinDesigns.jpg" x="3.5" y="123.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaUsinaBuracosNegros" transform="translate(-610, 715)" id="pistaUsinaBuracosNegros">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Usina de</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Buracos</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Negros</tspan>
+          </text>
+          <image href="assets/img/BlackHoleForge.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno -->
+        <g class="pista" data-id="pistaDiagramaAngulo" transform="translate(-400, 975)" id="pistaDiagramaAngulo">
+          <rect width="175" height="275" />
+          <text x="87.5" y="33.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Diagrama do</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Ângulo de</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Alinhamento</tspan>
+          </text>
+          <image href="assets/img/AlignmentAngleDiagram.jpg" x="3.5" y="103.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaEstacaoBuracoBranco" transform="translate(-1380, -935)" id="pistaEstacaoBuracoBranco">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Estação do</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Buraco</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Branco</tspan>
+          </text>
+          <image href="assets/img/WhiteHoleStation.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaTorresGemeoCinzento" transform="translate(-1020, -200)" id="pistaTorresGemeoCinzento">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Torres do</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Gêmeo</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Cinzento</tspan>
+          </text>
+          <image href="assets/img/AshTwinTowers.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaEstacaoSolar" transform="translate(-1700, -185)" id="pistaEstacaoSolar">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Estação</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Solar</tspan>
+          </text>
+          <image href="assets/img/SunStation.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+
+
+      </g>
+
+      <!-- Pistas em cinza -->
+      <g id="card-gray">
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaIlhaGabro" transform="translate(1800, -680)" id="pistaIlhaGabro">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Ilha de</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Gabro</tspan>
+          </text>
+          <image href="assets/img/GabbrosIsland.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Uma linha card médio -->
+        <g class="pista" data-id="pistaVila" transform="translate(2005, -1490)" id="pistaVila">
+          <rect width="250" height="350" />
+          <text x="125" y="60">
+            <tspan x="125" dy="0" class="textoMedGran">Vila</tspan>
+          </text>
+          <image href="assets/img/Village.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno -->
+        <g class="pista" data-id="pistaCavernaGravidadeZero" transform="translate(2210, -1250)" id="pistaCavernaGravidadeZero">
+          <rect width="175" height="275" />
+          <text x="87.5" y="33.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Caverna de</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Gravidade</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Zero</tspan>
+          </text>
+          <image href="assets/img/ZeroGCave.jpg" x="3.5" y="103.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaAcampamentoEsker" transform="translate(2555, -2250)" id="pistaAcampamentoEsker">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Acampamento</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Esker</tspan>
+          </text>
+          <image href="assets/img/EskersCamp.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaAcampamentoRiebeck" transform="translate(3755, -1895)" id="pistaAcampamentoRiebeck">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Acampamento</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">de Riebeck</tspan>
+          </text>
+          <image href="assets/img/RiebecksCamp.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaObservacaoLunar" transform="translate(3575, -2545)" id="pistaObservacaoLunar">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Observação</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Lunar</tspan>
+          </text>
+          <image href="assets/img/LunarLookout.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaSementeAbrolhoSombrio" transform="translate(4810, -2070)" id="pistaSementeAbrolhoSombrio">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Semente do</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Abrolho</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Sombrio</tspan>
+          </text>
+          <image href="assets/img/DarkBrambleSeed.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaGeleiraNorte" transform="translate(-1380, -1765)" id="pistaGeleiraNorte">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Geleira</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Norte</tspan>
+          </text>
+          <image href="assets/img/NorthernGlacier.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaCidadeOcaso" transform="translate(-2035, 570)" id="pistaCidadeOcaso">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Cidade do</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Ocaso</tspan>
+          </text>
+          <image href="assets/img/TheSunlessCity.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaAcampamentoCherte" transform="translate(-2850, 680)" id="pistaAcampamentoCherte">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Acampamento</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">de Cherte</tspan>
+          </text>
+          <image href="assets/img/ChertsCamp.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaCidadeDependurada" transform="translate(-620, 1790)" id="pistaCidadeDependurada">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Cidade</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Dependurada</tspan>
+          </text>
+          <image href="assets/img/TheHangingCity.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card grande -->
+        <g class="pista" data-id="pistaNucleoRompido" transform="translate(1365, 2350)" id="pistaNucleoRompido">
+          <rect width="500" height="720" />
+          <text x="250" y="90">
+            <tspan x="250" dy="0" class="texto3Linhas">Núcleo</tspan>
+            <tspan x="250" dy="1.3em" class="texto3Linhas">Rompido</tspan>
+          </text>
+          <image href="assets/img/RupturedCore.jpg" x="10" y="230" width="480" height="480"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaExploradoraNomaiCongelada" transform="translate(2265, 2520)" id="pistaExploradoraNomaiCongelada">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Exploradora</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Nomai</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Congelada</tspan>
+          </text>
+          <image href="assets/img/FrozenNomaiShuttle.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaCanhaoGravitacional2" transform="translate(2910, 2190)" id="pistaCanhaoGravitacional2">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Canhão</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Gravita-</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">cional</tspan>
+          </text>
+          <image href="assets/img/GravityCannon2.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+      </g>
+
+      <!-- Pistas em verde -->
+      <g id="card-green">
+        <!-- Três linhas card grande -->
+        <g class="pista" data-id="pistaCanhaoSondaOrbital" transform="translate(2980, -990)" id="pistaCanhaoSondaOrbital">
+          <rect width="500" height="800" />
+          <text x="250" y="90">
+            <tspan x="250" dy="0" class="texto3Linhas">Canhão de</tspan>
+            <tspan x="250" dy="1.3em" class="texto3Linhas">Sonda</tspan>
+            <tspan x="250" dy="1.3em" class="texto3Linhas">Orbital</tspan>
+          </text>
+          <image href="assets/img/OrbitalProbeCannon.jpg" x="10" y="310" width="480" height="480"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaModuloControle" transform="translate(2880, -340)" id="pistaModuloControle">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Módulo de</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Controle</tspan>
+          </text>
+          <image href="assets/img/ControlModule.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaModuloLancamento" transform="translate(3135, -340)" id="pistaModuloLancamento">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Módulo de</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Lançamento</tspan>
+          </text>
+          <image href="assets/img/LaunchModule.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno -->
+        <g class="pista" data-id="pistaModuloRastreamentoSonda" transform="translate(3395, -360)" id="pistaModuloRastreamentoSonda">
+          <rect width="175" height="275" />
+          <text x="87.5" y="33.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Módulo de</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Rastreamento</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">de Sonda</tspan>
+          </text>
+          <image href="assets/img/ProbeTrackingModule.jpg" x="3.5" y="103.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaProfundezasOceano" transform="translate(3165, 300)" id="pistaProfundezasOceano">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Profundezas</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">do Oceano</tspan>
+          </text>
+          <image href="assets/img/OceanDepths.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaRadarSinalOlho" transform="translate(3125, -1730)" id="pistaRadarSinalOlho">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Radar do</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Sinal do</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Olho</tspan>
+          </text>
+          <image href="assets/img/EyeSignalLocator.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaObservatorioSul" transform="translate(4170, -1310)" id="pistaObservatorioSul">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Observatório</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">do Sul</tspan>
+          </text>
+          <image href="assets/img/SouthernObservatory.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaSimulacaoTornados" transform="translate(4375, -1050)" id="pistaSimulacaoTornados">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Simulação de</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Tornados</tspan>
+          </text>
+          <image href="assets/img/TornadoSimulation.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaEstaleiroConstrucao" transform="translate(4085, -490)" id="pistaEstaleiroConstrucao">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Estaleiro de</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Construção</tspan>
+          </text>
+          <image href="assets/img/ConstructionYard.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaIlhaAbrolho" transform="translate(4565, 280)" id="pistaIlhaAbrolho">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Ilha do</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Abrolho</tspan>
+          </text>
+          <image href="assets/img/BrambleIsland.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaAcampamentoFeldspato" transform="translate(4835, -780)" id="pistaAcampamentoFeldspato">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Acampamento</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">de Feldspato</tspan>
+          </text>
+          <image href="assets/img/FeldsparsCamp.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaAguavivaCongelada" transform="translate(5415, -525)" id="pistaAguavivaCongelada">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Água-viva</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Congelada</tspan>
+          </text>
+          <image href="assets/img/FrozenJellyfish.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+      </g>
+
+
+
+      <!-- Pistas em vermelho -->
+      <g id="card-red">
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaAntigoAssentamento" transform="translate(-1910, 1790)" id="pistaAntigoAssentamento">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Antigo</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Assentamento</tspan>
+          </text>
+          <image href="assets/img/OldSettlement.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaFossilTamboril" transform="translate(-1730, 1295)" id="pistaFossilTamboril">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Fóssil de</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Tamboril</tspan>
+          </text>
+          <image href="assets/img/AnglerfishFossil.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaMuralPainel3" transform="translate(-1980, 2077)" id="pistaMuralPainel3">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Mural</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">(Painel 3)</tspan>
+          </text>
+          <image href="assets/img/MuralPanel3.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaMuralPainel2" transform="translate(-2180, 2077)" id="pistaMuralPainel2">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Mural</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">(Painel 2)</tspan>
+          </text>
+          <image href="assets/img/MuralPanel2.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaMuralPainel1" transform="translate(-2380, 2077)" id="pistaMuralPainel1">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Mural</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">(Painel 1)</tspan>
+          </text>
+          <image href="assets/img/MuralPanel1.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaCapsulaEscape1" transform="translate(-1430, 2235)" id="pistaCapsulaEscape1">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Cápsula de</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Escape 1</tspan>
+          </text>
+          <image href="assets/img/EscapePod1.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaCapsulaEscape2" transform="translate(-2630, 1545)" id="pistaCapsulaEscape2">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Cápsula de</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Escape 2</tspan>
+          </text>
+          <image href="assets/img/EscapePod2.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaCapsulaEscape3" transform="translate(-2350, 2588)" id="pistaCapsulaEscape3">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Cápsula de</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Escape 3</tspan>
+          </text>
+          <image href="assets/img/EscapePod3.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Uma linha card médio -->
+        <g class="pista" data-id="pistaTumuloNomai" transform="translate(-2562, 3190)" id="pistaTumuloNomai">
+          <rect width="250" height="350" />
+          <text x="125" y="60">
+            <tspan x="125" dy="0" class="textoMedGran">Túmulo Nomai</tspan>
+          </text>
+          <image href="assets/img/NomaiGrave.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Uma linha card grande -->
+        <g class="pista" data-id="pistaOHospedeiro" transform="translate(-1552, 2925)" id="pistaOHospedeiro">
+          <rect width="500" height="635" />
+          <text x="250" y="90">
+            <tspan x="250" dy="0" class="texto1Linha">O Hospedeiro</tspan>
+          </text>
+          <image href="assets/img/TheVessel.jpg" x="10" y="145" width="480" height="480"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+      </g>
+
+      <!-- Pistas em roxo -->
+      <g id="card-purple">
+        <!-- Uma linha card grande -->
+        <g class="pista" data-id="pistaLuaQuantica" transform="translate(-2400, -2710)" id="pistaLuaQuantica">
+          <rect width="500" height="635" />
+          <text x="250" y="90">
+            <tspan x="250" dy="0" class="texto1Linha">Lua Quântica</tspan>
+          </text>
+          <image href="assets/img/QuantumMoon.jpg" x="10" y="145" width="480" height="480"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card intermediário -->
+        <g class="pista" data-id="pistaExploradoraSolanum" transform="translate(-1940, -2530)" id="pistaExploradoraSolanum">
+          <rect width="200" height="280" />
+          <text x="21.5" y="35.5">
+            <tspan x="99.5" dy="0" class="textoMedio">Exploradora</tspan>
+            <tspan x="99.5" dy="1.2em" class="textoMedio">de Solanum</tspan>
+          </text>
+          <image href="assets/img/SolanumsShuttle.jpg" x="3.5" y="83.5" width="192" height="192"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card intermediário -->
+        <g class="pista" data-id="pistaTemploQuantico" transform="translate(-2565, -2560)" id="pistaTemploQuantico">
+          <rect width="200" height="280" />
+          <text x="21.5" y="35.5">
+            <tspan x="99.5" dy="0" class="textoMedio">Templo</tspan>
+            <tspan x="99.5" dy="1.2em" class="textoMedio">Quântico</tspan>
+          </text>
+          <image href="assets/img/QuantumShrine.jpg" x="3.5" y="83.5" width="192" height="192"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card intermediário -->
+        <g class="pista" data-id="pistaSextaLocalizacao" transform="translate(-2565, -2260)" id="pistaSextaLocalizacao">
+          <rect width="200" height="280" />
+          <text x="21.5" y="35.5">
+            <tspan x="99.5" dy="0" class="textoMedio">Sexta</tspan>
+            <tspan x="99.5" dy="1.2em" class="textoMedio">Localização</tspan>
+          </text>
+          <image href="assets/img/SixthLocation.jpg" x="3.5" y="83.5" width="192" height="192"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaRadarLuaQuantica" transform="translate(-2420, -1680)" id="pistaRadarLuaQuantica">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Radar da Lua</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Quântica</tspan>
+          </text>
+          <image href="assets/img/QuantumMoonLocator.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaTorreConhecimentoQuantico" transform="translate(-3105, -2570)" id="pistaTorreConhecimentoQuantico">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Torre do</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Conhecimento</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Quântico</tspan>
+          </text>
+          <image href="assets/img/TowerQuantumKnowledge.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaCanhaoGravitacional" transform="translate(-2845, -3290)" id="pistaCanhaoGravitacional">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Canhão</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Gravita-</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">cional</tspan>
+          </text>
+          <image href="assets/img/GravityCannon.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno -->
+        <g class="pista" data-id="pistaFragmentoQuantico" transform="translate(-3230, -2290)" id="pistaFragmentoQuantico">
+          <rect width="175" height="245" />
+          <text x="87.5" y="31.5">
+            <tspan x="87.5" dy="0" class="textoPeqMed">Fragmento</tspan>
+            <tspan x="87.5" dy="1.2em" class="textoPeqMed">Quântico</tspan>
+          </text>
+          <image href="assets/img/QuantumShard.jpg" x="3.5" y="73.5" width="168" height="168"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaTorreJulgamentosQuanticos" transform="translate(-3735, -2735)" id="pistaTorreJulgamentosQuanticos">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Torre dos</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Julgamentos</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Quânticos</tspan>
+          </text>
+          <image href="assets/img/TowerQuantumTrials.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaBosqueQuantico" transform="translate(-3735, -1910)" id="pistaBosqueQuantico">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Bosque</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Quântico</tspan>
+          </text>
+          <image href="assets/img/QuantumGrove.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaCavernasQuanticas" transform="translate(-2995, -1805)" id="pistaCavernasQuanticas">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Cavernas</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Quânticas</tspan>
+          </text>
+          <image href="assets/img/QuantumCaves.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card médio -->
+        <g class="pista" data-id="pistaCavernaFundoSecoLago" transform="translate(-3245, -1150)" id="pistaCavernaFundoSecoLago">
+          <rect width="250" height="380" />
+          <text x="125" y="40">
+            <tspan x="125" dy="0" class="texto3LinhasMedio">Caverna do</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">Fundo Seco</tspan>
+            <tspan x="125" dy="1.2em" class="texto3LinhasMedio">do Lago</tspan>
+          </text>
+          <image href="assets/img/LakebedCave.jpg" x="5" y="135" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+      </g>
+
+      <!-- Pistas em azul -->
+      <g id="card-blue">
+        <!-- Duas linhas card grande -->
+        <g class="pista" data-id="pistaODesconhecido" transform="translate(4220, 1515)" id="pistaODesconhecido">
+          <rect width="500" height="700" />
+          <text x="250" y="90">
+            <tspan x="250" dy="0" class="texto2Linhas">O</tspan>
+            <tspan x="250" dy="1.3em" class="texto2Linhas">Desconhecido</tspan>
+          </text>
+          <image href="assets/img/TheStranger.jpg" x="10" y="210" width="480" height="480"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaTorreRadio" transform="translate(3825, 1350)" id="pistaTorreRadio">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Torre de</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Rádio</tspan>
+          </text>
+          <image href="assets/img/RadioTower.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Uma linha card médio -->
+        <g class="pista" data-id="pistaReservatorio" transform="translate(5175, 1770)" id="pistaReservatorio">
+          <rect width="250" height="330" />
+          <text x="125" y="55">
+            <tspan x="125" dy="0" class="textoMedGran">Reservatório</tspan>
+          </text>
+          <image href="assets/img/Reservoir.jpg" x="5" y="85" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaRoloFilmeQueimado1" transform="translate(5348, 2025)" id="pistaRoloFilmeQueimado1">
+          <rect width="155" height="235" />
+          <text x="77.5" y="25.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Filme</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Queimado</tspan>
+          </text>
+          <image href="assets/img/BurnedSlideReel1.jpg" x="3.5" y="83.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaEstruturaSubmersa" transform="translate(5175, 2450)" id="pistaEstruturaSubmersa">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Estrutura</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Submersa</tspan>
+          </text>
+          <image href="assets/img/SubmergedStructure.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaLagoSubterraneo" transform="translate(5408, 2525)" id="pistaLagoSubterraneo">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Lago</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Subterrâneo</tspan>
+          </text>
+          <image href="assets/img/SubterraneanLake.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Uma linha card pequeno (DLC)-->
+        <g class="pista" data-id="pistaCofreSelado" transform="translate(5223, 2755)" id="pistaCofreSelado">
+          <rect width="155" height="200" />
+          <text x="77.5" y="31.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Cofre Selado</tspan>
+          </text>
+          <image href="assets/img/SealedVault.jpg" x="3.5" y="48.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaDesfiladeiroOculto" transform="translate(4260, 2680)" id="pistaDesfiladeiroOculto">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Desfiladeiro</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Oculto</tspan>
+          </text>
+          <image href="assets/img/HiddenGorge.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaLaboratórioAvariado" transform="translate(4180, 2480)" id="pistaLaboratórioAvariado">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Laboratório</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Avariado</tspan>
+          </text>
+          <image href="assets/img/DamagedLaboratory.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaRoloFilmeQueimado2" transform="translate(4180, 3005)" id="pistaRoloFilmeQueimado2">
+          <rect width="155" height="235" />
+          <text x="77.5" y="25.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Filme</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Queimado</tspan>
+          </text>
+          <image href="assets/img/BurnedSlideReel2.jpg" x="3.5" y="83.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaSalaIncineracaoFilmes1" transform="translate(4377, 3005)" id="pistaSalaIncineracaoFilmes1">
+          <rect width="155" height="235" />
+          <text x="77.5" y="25.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Sala de</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Incineração</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">de Filmes</tspan>
+          </text>
+          <image href="assets/img/SlideBurningRoom1.jpg" x="3.5" y="83.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaPlaniciesRio" transform="translate(6085, 2680)" id="pistaPlaniciesRio">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Planícies do</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Rio</tspan>
+          </text>
+          <image href="assets/img/RiverLowlands.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaSalaIncineracaoFilmes2" transform="translate(6016, 2995)" id="pistaSalaIncineracaoFilmes2">
+          <rect width="155" height="235" />
+          <text x="77.5" y="25.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Sala de</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Incineração</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">de Filmes</tspan>
+          </text>
+          <image href="assets/img/SlideBurningRoom2.jpg" x="3.5" y="83.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaRoloFilmeQueimado3" transform="translate(6223, 2995)" id="pistaRoloFilmeQueimado3">
+          <rect width="155" height="235" />
+          <text x="77.5" y="25.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Filme</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Queimado</tspan>
+          </text>
+          <image href="assets/img/BurnedSlideReel3.jpg" x="3.5" y="83.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaTemploAbandonado" transform="translate(4730, 2973)" id="pistaTemploAbandonado">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Templo</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Abandonado</tspan>
+          </text>
+          <image href="assets/img/AbandonedTemple.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaProjecaoMapa1" transform="translate(4965, 3308)" id="pistaProjecaoMapa1">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Projeção do</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Mapa 1</tspan>
+          </text>
+          <image href="assets/img/MapProjection1.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaProjecaoMapa2" transform="translate(4780, 3308)" id="pistaProjecaoMapa2">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Projeção do</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Mapa 2</tspan>
+          </text>
+          <image href="assets/img/MapProjection2.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaProjecaoMapa3" transform="translate(4595, 3308)" id="pistaProjecaoMapa3">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Projeção do</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Mapa 3</tspan>
+          </text>
+          <image href="assets/img/MapProjection3.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaIlhasCinerarias" transform="translate(5175, 3545)" id="pistaIlhasCinerarias">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Ilhas</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Cinerárias</tspan>
+          </text>
+          <image href="assets/img/CinderIsles.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaTorreIlha" transform="translate(5675, 3545)" id="pistaTorreIlha">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Torre da</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Ilha</tspan>
+          </text>
+          <image href="assets/img/IslandTower.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaSalaSimbolos" transform="translate(5640, 3340)" id="pistaSalaSimbolos">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Sala dos</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Símbolos</tspan>
+          </text>
+          <image href="assets/img/SymbolRoom.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaSalaIncineracaoFilmes3" transform="translate(5096, 3850)" id="pistaSalaIncineracaoFilmes3">
+          <rect width="155" height="235" />
+          <text x="77.5" y="25.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Sala de</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Incineração</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">de Filmes</tspan>
+          </text>
+          <image href="assets/img/SlideBurningRoom3.jpg" x="3.5" y="83.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Três linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaRoloFilmeQueimado4" transform="translate(5300, 3850)" id="pistaRoloFilmeQueimado4">
+          <rect width="155" height="235" />
+          <text x="77.5" y="25.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Rolo de</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Filme</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Queimado</tspan>
+          </text>
+          <image href="assets/img/BurnedSlideReel4.jpg" x="3.5" y="83.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaEnseadaEstrelada" transform="translate(5175, 4385)" id="pistaEnseadaEstrelada">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Enseada</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Estrelada</tspan>
+          </text>
+          <image href="assets/img/StarlitCove.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaArquivoProibido1" transform="translate(5030, 4330)" id="pistaArquivoProibido1">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Arquivo</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Proibido</tspan>
+          </text>
+          <image href="assets/img/ForbiddenArchive1.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaCanionInfinito" transform="translate(4100, 3960)" id="pistaCanionInfinito">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Cânion</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Infinito</tspan>
+          </text>
+          <image href="assets/img/EndlessCanyon.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaArquivoProibido2" transform="translate(3963, 3913)" id="pistaArquivoProibido2">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Arquivo</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Proibido</tspan>
+          </text>
+          <image href="assets/img/ForbiddenArchive2.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card médio -->
+        <g class="pista" data-id="pistaFlorestaNebulosa" transform="translate(6250, 3960)" id="pistaFlorestaNebulosa">
+          <rect width="250" height="350" />
+          <text x="87.5" y="44">
+            <tspan x="125.5" dy="0" class="textoMedGran">Floresta</tspan>
+            <tspan x="125.5" dy="1.2em" class="textoMedGran">Nebulosa</tspan>
+          </text>
+          <image href="assets/img/ShroudedWoodlands.jpg" x="5" y="105" width="240" height="240"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+        <!-- Duas linhas card pequeno (DLC)-->
+        <g class="pista" data-id="pistaArquivoProibido3" transform="translate(6122, 3913)" id="pistaArquivoProibido3">
+          <rect width="155" height="215" />
+          <text x="77.5" y="26.5">
+            <tspan x="77.5" dy="0" class="textoPequeno">Arquivo</tspan>
+            <tspan x="77.5" dy="1.2em" class="textoPequeno">Proibido</tspan>
+          </text>
+          <image href="assets/img/ForbiddenArchive3.jpg" x="3.5" y="63.5" width="148" height="148"
+            preserveAspectRatio="xMidYMid meet" />
+        </g>
+      </g>
+
+    </g>
+  </svg>
+
+  <div id="info" class="mensagens" style="display:none"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
