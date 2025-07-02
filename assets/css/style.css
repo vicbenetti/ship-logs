@@ -263,3 +263,27 @@ image {
     color: rgb(247, 218, 195);
     transition: 0.3s ease;
 }
+
+/* Responsividade */
+@media (max-width: 600px) {
+
+    #info,
+    .modal {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .modal p {
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+
+    #info p {
+        font-size: 12px;
+    }
+
+    .modal button {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+}
