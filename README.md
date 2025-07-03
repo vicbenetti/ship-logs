@@ -16,4 +16,4 @@ A única tecnologia utilizada neste projeto foi JavaScript puro (vanilla JS), se
 
 ## Como acessar?
 
-Para visualizar o site, basta acessar o link: diariobordo-outerwilds.site
+Para visualizar o site, basta acessar o link: [diariobordo-outerwilds.site](https://www.diariobordo-outerwilds.site/)
