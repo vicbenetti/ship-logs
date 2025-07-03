@@ -4,7 +4,7 @@ A ideia desse projeto era recriar o diário de bordo presente em Outer Wilds, um
 
 O foco principal foi criar uma experiência visual semelhante à do jogo, onde as pistas se conectam entre si e podem ser clicadas para revelar mais detalhes.
 
-![Captura de tela do projeto](https://github.com/user-attachments/assets/405f1546-a41d-413e-9c90-4dd7f1bfa196)
+![Image](https://github.com/user-attachments/assets/7e0febb8-1bc7-4933-92c7-2e2823d5d7f0)
 
 ## Tecnologias:
 
