@@ -13,3 +13,7 @@ A única tecnologia utilizada neste projeto foi JavaScript puro (vanilla JS), se
 - Aplicação de zoom e pan.
 - Cntrole de elementos gráficos usando SVG.
 - Criação de elementos dinâmicos.
+
+## Como acessar?
+
+Para visualizar o site, basta acessar o link: diariobordo-outerwilds.site
