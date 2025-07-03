@@ -1,6 +1,6 @@
 ## Sobre o projeto:
 
-A ideia desse projeto era recriar o diário de bordo presente em Outer Wilds, um jogo de exploração espacial. A proposta foi desenvolver um painel interativo que simula pista, conexões e informações adquiridas durante a jornada, permitindo explorá-las de forma fluida e dinâmica.
+A ideia desse projeto era recriar o diário de bordo presente em Outer Wilds, um jogo de exploração espacial. A proposta foi desenvolver um painel interativo que simula pistas, conexões e informações adquiridas durante a jornada, permitindo explorá-las de forma fluida e dinâmica.
 
 O foco principal foi criar uma experiência visual semelhante à do jogo, onde as pistas se conectam entre si e podem ser clicadas para revelar mais detalhes.
 
