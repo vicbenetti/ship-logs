@@ -11,7 +11,7 @@ O foco principal foi criar uma experiência visual semelhante à do jogo, onde a
 A única tecnologia utilizada neste projeto foi JavaScript puro (vanilla JS), sem o uso de frameworks ou bibliotecas externas. Isso foi fundamental para aprofundar meu conhecimento em conceitos como:
 
 - Aplicação de zoom e pan.
-- Cntrole de elementos gráficos usando SVG.
+- Controle de elementos gráficos usando SVG.
 - Criação de elementos dinâmicos.
 
 ## Como acessar?
