@@ -275,8 +275,7 @@ image {
 /* Responsividade */
 @media (max-width: 650px) {
 
-    #info,
-    .modal {
+    #info, .modal {
         padding: 16px;
         font-size: 14px;
     }
@@ -301,5 +300,10 @@ image {
 
     .modal {
         height: 320px;
+    }
+
+    #info {
+        left: 3%;
+        right: 3%;
     }
 }
